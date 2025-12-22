@@ -79,3 +79,121 @@ After exploring this code, you'll understand:
 
 * Dictionary methods and operations
 
+📝 Additional Resources
+
+* Python Lists Documentation
+
+* Python Dictionaries Documentation
+
+* Real Python: Lists and Tuples
+
+* Real Python: Dictionaries
+
+🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1- Fork the repository
+2- Create your feature branch (git checkout -b feature/AmazingFeature)
+3- Commit your changes (git commit -m 'Add some AmazingFeature')
+4- Push to the branch (git push origin feature/AmazingFeature)
+5- Open a Pull Request
+
+📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+👏 Acknowledgments
+* Thanks to the Python community for excellent documentation
+* Inspired by Python beginners who want to master data structures
+
+⭐ If you find this helpful, please give it a star! ⭐
+
+**3. `requirements.txt`** (Dependencies - minimal):
+
+Python Data Structures Project
+
+No external dependencies required for basic examples
+
+Add any future dependencies here
+
+For development/testing only
+
+pytest==7.0.0
+
+black==22.0.0
+
+
+**4. `.gitignore`**:
+
+Python
+pycache/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+OS
+.DS_Store
+Thumbs.db
+
+Project specific
+*.log
+*.sqlite3
+
+
+**5. `examples/advanced_lists.py`** (Bonus file):
+```python
+"""
+Advanced List Operations Examples
+"""
+
+# List comprehensions with conditions
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+even_squares = [x**2 for x in numbers if x % 2 == 0]
+print(f"Even squares: {even_squares}")
+
+# Nested list comprehensions
+matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+flattened = [num for row in matrix for num in row]
+print(f"Flattened matrix: {flattened}")
+
+# List unpacking
+first, *middle, last = [1, 2, 3, 4, 5]
+print(f"First: {first}, Middle: {middle}, Last: {last}")
+
+
+**5. `examples/advanced_lists.py`** (Bonus file):
+```python
+"""
+Advanced List Operations Examples
+"""
+
+# List comprehensions with conditions
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+even_squares = [x**2 for x in numbers if x % 2 == 0]
+print(f"Even squares: {even_squares}")
+
+# Nested list comprehensions
+matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+flattened = [num for row in matrix for num in row]
+print(f"Flattened matrix: {flattened}")
+
+# List unpacking
+first, *middle, last = [1, 2, 3, 4, 5]
+print(f"First: {first}, Middle: {middle}, Last: {last}")
+
+
+
+
